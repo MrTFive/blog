@@ -1,0 +1,16 @@
+2018-09-08 08:00:32.335  INFO 5732 --- [restartedMain] com.tfive.blog.BlogApplication           : Starting BlogApplication on DESKTOP-817VDF1 with PID 5732 (E:\MajorSoft\IDEAProjects\TestSpringBoot\blog\target\classes started by tfive in E:\MajorSoft\IDEAProjects\TestSpringBoot\blog)
+2018-09-08 08:00:32.335  INFO 5732 --- [restartedMain] com.tfive.blog.BlogApplication           : The following profiles are active: pro
+2018-09-08 08:00:35.960  WARN 5732 --- [restartedMain] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2018-09-08 08:00:36.460  INFO 5732 --- [restartedMain] com.tfive.blog.BlogApplication           : Started BlogApplication in 4.588 seconds (JVM running for 5.685)
+2018-09-08 08:03:45.422  INFO 7612 --- [restartedMain] com.tfive.blog.BlogApplication           : Starting BlogApplication on DESKTOP-817VDF1 with PID 7612 (E:\MajorSoft\IDEAProjects\TestSpringBoot\blog\target\classes started by tfive in E:\MajorSoft\IDEAProjects\TestSpringBoot\blog)
+2018-09-08 08:03:45.422  INFO 7612 --- [restartedMain] com.tfive.blog.BlogApplication           : The following profiles are active: pro
+2018-09-08 08:03:49.032  WARN 7612 --- [restartedMain] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2018-09-08 08:03:49.485  INFO 7612 --- [restartedMain] com.tfive.blog.BlogApplication           : Started BlogApplication in 4.45 seconds (JVM running for 5.488)
+2018-09-08 08:04:11.392  INFO 608 --- [main] com.tfive.blog.BlogApplicationTests      : Starting BlogApplicationTests on DESKTOP-817VDF1 with PID 608 (started by tfive in E:\MajorSoft\IDEAProjects\TestSpringBoot\blog)
+2018-09-08 08:04:11.392  INFO 608 --- [main] com.tfive.blog.BlogApplicationTests      : The following profiles are active: pro
+2018-09-08 08:04:16.526  WARN 608 --- [main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2018-09-08 08:04:16.964  INFO 608 --- [main] com.tfive.blog.BlogApplicationTests      : Started BlogApplicationTests in 5.879 seconds (JVM running for 6.707)
+2018-09-08 08:33:53.118  INFO 1940 --- [main] com.tfive.blog.BlogApplicationTests      : Starting BlogApplicationTests on DESKTOP-817VDF1 with PID 1940 (started by tfive in E:\MajorSoft\IDEAProjects\TestSpringBoot\blog)
+2018-09-08 08:33:53.121  INFO 1940 --- [main] com.tfive.blog.BlogApplicationTests      : The following profiles are active: pro
+2018-09-08 08:33:58.330  WARN 1940 --- [main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2018-09-08 08:33:58.904  INFO 1940 --- [main] com.tfive.blog.BlogApplicationTests      : Started BlogApplicationTests in 6.292 seconds (JVM running for 7.33)

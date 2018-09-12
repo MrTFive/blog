@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head th:replace="admin/_fragments :: head"> <!--th:replace="admin/_fragments :: head(~::title)"-->
+    <meta charset="UTF-8">
+    <!--移动端设置-->
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>博客管理登录</title>
+
+    <!--引入Semantic-ui的资源-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/semantic-ui/2.2.4/semantic.min.css">
+    <link rel="stylesheet" href="../../static/css/me.css">
+</head>
+<body>
+
+    <br>
+    <br>
+    <br>
+    <br>
+    <div class="m-container-small m-padded-tb-massive" style="max-width: 30em !important;">
+        <div class="ui container">
+            <div class="ui middle aligned center aligned grid">
+                <div class="column">
+                    <h2 class="ui teal image header">
+                        <div class="content">
+                            管理后台登录
+                        </div>
+                    </h2>
+                    <form class="ui large form" method="post" th:action="@{/admin/login}">
+                        <div class="ui stacked segment">
+                            <div class="field">
+                                <div class="ui left icon input">
+                                    <i class="user icon"></i>
+                                    <input type="text" name="username" placeholder="Username">
+                                </div>
+                            </div>
+                            <div class="field">
+                                <div class="ui left icon input">
+                                    <i class="lock icon"></i>
+                                    <input type="password" name="password" placeholder="Password">
+                                </div>
+                            </div>
+                            <button class="ui fluid large teal submit button">Login</button>
+                        </div>
+
+                        <!--表单判空-->
+                        <div class="ui error mini message"></div>
+                        <!--后台返回的密码错误提示-->
+                        <div class="ui mini negative message" th:unless="${#strings.isEmpty(message)}" th:text="${message}"></div>
+
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.2/dist/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/semantic-ui/2.2.4/semantic.min.js"></script>
+
+<script>
+
+    /*表单验证 验证用户名和密码*/
+    $('.ui.form').form({
+        fields : {
+            username : {
+                identifier : 'username',
+                rules : [{
+                    type : 'empty',
+                    prompt : '标题 : 请输入用户名'
+                }]
+            },
+            password : {
+                identifier : 'password',
+                rules : [{
+                    type : 'empty',
+                    prompt : '标题 : 请输入密码'
+                }]
+            }
+        }
+    });
+
+</script>
+
+
+</body>
+</html>
