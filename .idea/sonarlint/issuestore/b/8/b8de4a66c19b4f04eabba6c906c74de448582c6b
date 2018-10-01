@@ -1,0 +1,7 @@
+
+Asquid:S1948",Make "predicates" transient or serializable.(¹Õ²Ï
+[squid:S00112"FDefine and throw a dedicated exception instead of using a generic one.(£Ü -
+Ysquid:CallToDeprecatedMethod"3Remove this use of "PageRequest"; it is deprecated.(ÙÕÝ·
+Vsquid:UselessImportCheck"/Remove this unused import 'java.util.Optional'.(¨˜ëÝüÿÿÿÿ
+\squid:S00112"FDefine and throw a dedicated exception instead of using a generic one.(äœŠü
+Bsquid:S1604"(Make this anonymous inner class a lambda( ¡ç­ùÿÿÿÿ
